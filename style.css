@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+#header-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 5px solid #414041;
+  padding: 2em;
+  width: 80%;
+  margin: auto;
+}
+
+#title-container {
+  display: flex;
+  /* border: 1px solid red; */
+}
+
+#title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#header {
+  border-bottom: 2px solid #212021;
+  margin-bottom: 0.3em;
+  padding-bottom: 0.2em;
+}
+
+#job-title,
+.section-title {
+  color: #6f6e6e;
+}
+
+#header,
+.section-title {
+  font-family: "Roboto Serif", serif;
+}
+
+#my-img {
+  border-radius: 50%;
+  padding: 1em;
+}
+
+#contacts-container {
+  display: flex;
+  justify-content: center;
+}
+
+#contact-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  list-style: none;
+}
+
+#contact-details li {
+  padding-bottom: 0.5em;
+  color: #6f6e6e;
+}
+
+.social-link,
+.repo,
+i {
+  color: #100f11;
+}
+
+.github {
+  padding-right: 1em;
+}
+
+#skills-container,
+#experience-container,
+#joint-container,
+#languages-container {
+  width: 80%;
+  margin: 2em auto;
+}
+
+#summary-container {
+  width: 80%;
+  margin: 0.8em auto;
+}
+
+#skills-container,
+#joint-container,
+#lang-cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+#about-me,
+.skills,
+.education,
+.experience,
+.certifications,
+.project,
+.language {
+  border-left: 3px solid #738598;
+  padding-left: 1em;
+  margin-top: 1em;
+}
+
+.skill-title,
+.company-name,
+.cert-title,
+.project-title {
+  padding-bottom: 0.5em;
+  color: #100f11;
+}
+
+.experience-list {
+  padding: 1em;
+}
+
+.experience-list li,
+.language p,
+#about-me {
+  font-style: italic;
+}
+
+#projects-container {
+  width: 31%;
+}
+
+.pj-cont {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
